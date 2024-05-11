@@ -1,0 +1,36 @@
+.layout{
+    display: grid;
+    grid-template-columns: 16% 59% 25%;
+}
+
+.layout__right-sidebar {
+    position: fixed;
+    width: 23.5%;
+    margin-left: 1.5%;
+}
+
+.layout2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.layout2__left{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 2%;
+}
+
+.layout2__left .upper {
+    justify-content: normal;
+}
+
+.layout2__right{
+    height: auto;
+    align-items: center;
+    display: flex;
+}
+
+.layout2__right:hover .slider-controls span{
+    display: block;
+}

@@ -8,7 +8,7 @@
     background: #fff;
 }
 
-.slider-items .slider-item1{
+.slider-items .slider-item{
     position: absolute;
     width: 100%;
     transition: 0.5s;
@@ -18,7 +18,7 @@
     border-bottom-right-radius: 20px;
 }
 
-.slider-items .slider-item{
+.slider-items .slider-item4{
     position: absolute;
     width: 100%;
     transition: 0.5s;
@@ -65,7 +65,24 @@
     bottom:15px
 }
 
+.slider-indicators4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom:15px
+}
+
 .slider-indicators span{
+    cursor: pointer;
+    margin: 0 4px;
+    width: 8px;
+    height: 8px;
+    border-radius: 3px;
+    transition: 0.2s;
+}
+
+.slider-indicators4 span{
     cursor: pointer;
     margin: 0 4px;
     width: 8px;

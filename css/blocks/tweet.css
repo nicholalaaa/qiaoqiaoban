@@ -54,6 +54,7 @@
     padding-right: 5px;
 }
 .tweet__hastag{
+    margin-top: 10px;
     color: #657786;
     font-weight: 700;
 }

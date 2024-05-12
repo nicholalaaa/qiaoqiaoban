@@ -1,4 +1,4 @@
-.slider{
+.slider4{
     position: relative;
     display: flex;
     width: 100%;
@@ -8,7 +8,7 @@
     background: #fff;
 }
 
-.slider-items .slider-item{
+.slider-items4 .slider-item4{
     position: absolute;
     width: 100%;
     transition: 0.5s;
@@ -18,7 +18,7 @@
     border-bottom-right-radius: 20px;
 }
 
-.slider-controls span{
+.slider-controls4 span{
     display: none;
     cursor: pointer;
     position: absolute;
@@ -32,22 +32,22 @@
     font-family: 'Cavolini', sans-serif;;
 }
 
-.slider-controls span:hover{
+.slider-controls4 span:hover{
     color: #DB2E2E;
     background: rgba(219, 46, 46, 0.1);
 }
 
-.slider-controls .prev{
+.slider-controls4 .prev{
     left: 47%;
     border-radius: 20px;
 }
 
-.slider-controls .next{
+.slider-controls4 .next{
     border-radius: 20px;
     right: 26%;
 }
 
-.slider-indicators{
+.slider-indicators4{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -55,7 +55,7 @@
     bottom:15px
 }
 
-.slider-indicators span{
+.slider-indicators4 span{
     cursor: pointer;
     margin: 0 4px;
     width: 8px;
@@ -64,7 +64,7 @@
     transition: 0.2s;
 }
 
-.slider-content{
+.slider-content4{
     width: 100%;
     height: min-content;
     display: flex;

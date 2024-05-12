@@ -30,11 +30,3 @@
     align-items: center;
     display: flex;
 }
-
-.layout2__right:hover .slider-controls span{
-    display: block;
-}
-
-.layout2__right:hover .slider-controls4 span{
-    display: block;
-}

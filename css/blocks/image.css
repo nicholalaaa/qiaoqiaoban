@@ -64,9 +64,6 @@
     transition: 0.2s;
 }
 
-.slider-content{
-    width: 100%;
-    height: min-content;
-    display: flex;
-    justify-content: center;
+.layout2__right:hover .slider-controls span{
+    display: block;
 }

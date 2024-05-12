@@ -1,0 +1,21 @@
+.layout4{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.layout4__left{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 2%;
+}
+
+.layout4__left .upper {
+    justify-content: normal;
+}
+
+.layout4__right{
+    height: auto;
+    align-items: center;
+    display: flex;
+}

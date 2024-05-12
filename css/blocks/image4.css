@@ -19,6 +19,7 @@
 }
 
 .slider-controls4 span{
+    display: none;
     cursor: pointer;
     position: absolute;
     width: 30px;
@@ -63,6 +64,6 @@
     transition: 0.2s;
 }
 
-.layout2__right:hover .slider-controls span{
+.layout4__right:hover .slider-controls4 span{
     display: block;
 }

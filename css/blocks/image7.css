@@ -1,4 +1,4 @@
-.slider3{
+.slider7{
     position: relative;
     display: flex;
     width: 100%;
@@ -8,7 +8,7 @@
     background: #fff;
 }
 
-.slider-items3 .slider-item3{
+.slider-items7 .slider-item7{
     position: absolute;
     width: 100%;
     transition: 0.5s;
@@ -18,7 +18,7 @@
     border-bottom-right-radius: 20px;
 }
 
-.slider-controls3 span{
+.slider-controls7 span{
     display: none;
     cursor: pointer;
     position: absolute;
@@ -32,22 +32,22 @@
     font-family: 'Cavolini', sans-serif;;
 }
 
-.slider-controls3 span:hover{
+.slider-controls7 span:hover{
     color: #DB2E2E;
     background: rgba(219, 46, 46, 0.1);
 }
 
-.slider-controls3 .prev{
+.slider-controls7 .prev{
     left: 47%;
     border-radius: 20px;
 }
 
-.slider-controls3 .next{
+.slider-controls7 .next{
     border-radius: 20px;
     right: 26%;
 }
 
-.slider-indicators3{
+.slider-indicators7{
     width: 100%;
     display: none;
     justify-content: center;
@@ -55,7 +55,7 @@
     bottom:15px
 }
 
-.slider-indicators3 span{
+.slider-indicators7 span{
     cursor: pointer;
     margin: 0 4px;
     width: 8px;
@@ -65,6 +65,6 @@
     display: none;
 }
 
-.layout3__right:hover .slider-controls3 span{
+.layout7__right:hover .slider-controls7 span{
     display: block;
 }

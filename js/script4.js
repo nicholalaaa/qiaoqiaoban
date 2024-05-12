@@ -24,7 +24,7 @@ const showSlide4 = e => {
 
      images4[index4 - 1].style.opacity = '1';
      indicators4[index4 - 1].style.width = '26px';
-     indicator4[index4 - 1].style.background = 'rgba(0,0,0,0)';
+     indicators4[index4 - 1].style.background = 'rgba(0,0,0,0)';
 }
 
 showSlide4()
